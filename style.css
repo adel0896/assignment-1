@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(254, 238, 241);
+}
+section {
+  position: absolute;
+  padding: 3vw;
+  background-color: rgb(180, 27, 52);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vw;
+}
+h1,
+h2,
+label,
+input {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: white;
+}
+input {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: rgb(180, 27, 52);
+}
+button {
+  background-color: white;
+  border-radius: 0.5em;
+  border: 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem 0 1rem 0;
+  font-size: 1rem;
+  color: rgb(180, 27, 52);
+  cursor: pointer;
+}
